@@ -1,0 +1,28 @@
+.head {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.but {
+  color: white;
+}
+
+.postsView {
+  display: flex;
+  flex-direction: row;
+}
+
+.addscontainer {
+  margin: 20px;
+  width: 240px;
+  padding: 20px;
+  height: 350px;
+  transition-duration: .5s;
+  box-shadow: 0 0 10px -5px black;
+}
+
+.addscontainer:hover {
+  box-shadow: 0 0 10px black;
+}
